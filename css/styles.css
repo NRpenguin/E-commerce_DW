@@ -91,6 +91,27 @@
  }
  /* SCSS propio */
  
+ @media (min-width: 250px) and (max-width: 300px) {
+     #sidebar-wrapper.active {
+         width: 255px;
+         transition: all .4s ease 0s;
+     }
+ }
+ 
+ @media (min-width: 300px) and (max-width: 454px) {
+     #sidebar-wrapper.active {
+         width: 255px;
+         transition: all .4s ease 0s;
+     }
+ }
+ 
+ @media (min-width: 454px) and (max-width: 500px) {
+     #sidebar-wrapper.active {
+         width: 455px;
+         transition: all .4s ease 0s;
+     }
+ }
+ 
  .background-color-TP {
      background-color: #e0e0e0;
  }
@@ -647,7 +668,6 @@
  }
  
  hr {
-     margin-top: 6rem;
      margin-bottom: 2rem;
      border: 0;
      border-top: 1px solid rgba(0, 0, 0, 0.1);
